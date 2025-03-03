@@ -1,0 +1,923 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "vite:build",
+        "testTargetName": "vite:test",
+        "serveTargetName": "vite:serve",
+        "devTargetName": "dev",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "eslint:lint"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "react-monorepo/.vscode/extensions.json",
+        "hash": "13417776046909105611"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15324555173816065697"
+      },
+      {
+        "file": "package.json",
+        "hash": "17714660349930444460"
+      },
+      {
+        "file": "react-monorepo/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "14764883754449416152"
+      },
+      {
+        "file": "react-monorepo/.editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "react-monorepo/.eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "react-monorepo/nx.json",
+        "hash": "18209415989539720801"
+      },
+      {
+        "file": "react-monorepo/package-lock.json",
+        "hash": "9135422040955605386"
+      },
+      {
+        "file": "react-monorepo/tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "14023491222425291751"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".cursorrules",
+        "hash": "4216374736102545346"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
+      },
+      {
+        "file": "docker/docker-compose.yaml",
+        "hash": "14757395088225678623"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "108759356477840841"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "react-monorepo/.eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "README.md",
+        "hash": "14413925543584291763"
+      },
+      {
+        "file": "react-monorepo/.github/workflows/ci.yml",
+        "hash": "14727427998618680472"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "9689846343760294206"
+      },
+      {
+        "file": "react-monorepo/package.json",
+        "hash": "4553067292620469966"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "796974416503709605"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "react-monorepo/.prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "9175937087874081623"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13525564338511386281"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "10288245296376191020"
+      },
+      {
+        "file": ".env.example",
+        "hash": "6196758983720814792"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "15035319449811700535"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "react-monorepo/README.md",
+        "hash": "14904542624841332904"
+      },
+      {
+        "file": "react-monorepo/.gitignore",
+        "hash": "17737885269298436116"
+      },
+      {
+        "file": "react-monorepo/vitest.workspace.ts",
+        "hash": "14023491222425291751"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "8939057788174761540"
+      }
+    ],
+    "projectFileMap": {
+      "myapp": [
+        {
+          "file": "apps/myapp/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "apps/myapp/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/myapp/index.html",
+          "hash": "11599650054651445247"
+        },
+        {
+          "file": "apps/myapp/project.json",
+          "hash": "3730579366352072038"
+        },
+        {
+          "file": "apps/myapp/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/myapp/src/app/app.spec.tsx",
+          "hash": "3989173573778520068",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp/src/app/app.tsx",
+          "hash": "5788250890794948982",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/myapp/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/myapp/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/myapp/src/index.html",
+          "hash": "16210332549903690030"
+        },
+        {
+          "file": "apps/myapp/src/main.tsx",
+          "hash": "3738025000683058819",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/myapp/tsconfig.app.json",
+          "hash": "2553543269120232510"
+        },
+        {
+          "file": "apps/myapp/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "apps/myapp/tsconfig.spec.json",
+          "hash": "2374680567064402239"
+        },
+        {
+          "file": "apps/myapp/vite.config.ts",
+          "hash": "10271144878207608289",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "frontend": [
+        {
+          "file": "apps/frontend/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/frontend/.storybook/main.ts",
+          "hash": "13302306586034478555",
+          "deps": [
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "apps/frontend/.storybook/preview.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/index.html",
+          "hash": "2323699249478598756"
+        },
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "9035464832882444665"
+        },
+        {
+          "file": "apps/frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/frontend/src/app/GlobalState.ts",
+          "hash": "4226502246764544303",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/frontend/src/app/app.tsx",
+          "hash": "11928010035712651344",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:@tanstack/react-query",
+            "npm:react-toastify",
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/useQueryClient.ts",
+          "hash": "10072787748693922186",
+          "deps": [
+            "npm:superjson",
+            "npm:react",
+            "npm:@tanstack/react-query",
+            "npm:@trpc/client"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/AuthHeader/AuthHeader.stories.tsx",
+          "hash": "17207187813441347891",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:@storybook/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/AuthHeader/AuthHeader.tsx",
+          "hash": "1003935934443366470",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/AuthHeader/AuthHeaderUI.tsx",
+          "hash": "839744448640944267",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:react-icons",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/AuthVerify.tsx",
+          "hash": "157400700367196124",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/SignInCard/SignInCard.tsx",
+          "hash": "2094431536100415248",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/SignInCard/SignInCardUI.tsx",
+          "hash": "17600581305470318099",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/SignUpCard/SignUpCard.stories.tsx",
+          "hash": "13973332692717640032",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:@storybook/react",
+            "npm:react-router-dom",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/SignUpCard/SignUpCard.tsx",
+          "hash": "6743966828140036046",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Auth/SignUpCard/SignUpCardUI.tsx",
+          "hash": "5246036573740914782",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:react",
+            "npm:@chakra-ui/icons",
+            "npm:react-hook-form",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/SidebarWithHeader/SidebarWithHeader.tsx",
+          "hash": "6871006834249388068",
+          "deps": [
+            "npm:react",
+            "npm:@chakra-ui/react",
+            "npm:react-icons",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/env.d.ts",
+          "hash": "10750716259443487638"
+        },
+        {
+          "file": "apps/frontend/src/main.tsx",
+          "hash": "7062822402684775424",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Home.tsx",
+          "hash": "15423686418538297158",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/styles.css",
+          "hash": "3424491886252468717"
+        },
+        {
+          "file": "apps/frontend/src/theme.ts",
+          "hash": "11894185104771903907",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:@chakra-ui/theme-tools"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/utils/trpc.ts",
+          "hash": "6620020270405730988",
+          "deps": [
+            "npm:@trpc/react-query",
+            "backend",
+            "npm:@trpc/server"
+          ]
+        },
+        {
+          "file": "apps/frontend/tsconfig.app.json",
+          "hash": "10554219052390870965"
+        },
+        {
+          "file": "apps/frontend/tsconfig.json",
+          "hash": "1754403370476423293"
+        },
+        {
+          "file": "apps/frontend/tsconfig.spec.json",
+          "hash": "6527032242355196861"
+        },
+        {
+          "file": "apps/frontend/tsconfig.storybook.json",
+          "hash": "6833726005382652787"
+        },
+        {
+          "file": "apps/frontend/vite.config.ts",
+          "hash": "2581721643782262847",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite",
+            "npm:vite-tsconfig-paths"
+          ]
+        }
+      ],
+      "myapp-vite-e2e": [
+        {
+          "file": "apps/myapp-vite-e2e/.eslintrc.json",
+          "hash": "632147010597293032"
+        },
+        {
+          "file": "apps/myapp-vite-e2e/playwright.config.ts",
+          "hash": "767970504882793538",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/myapp-vite-e2e/project.json",
+          "hash": "13282587229889228947"
+        },
+        {
+          "file": "apps/myapp-vite-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/myapp-vite-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ],
+      "myapp-e2e": [
+        {
+          "file": "apps/myapp-e2e/.eslintrc.json",
+          "hash": "632147010597293032"
+        },
+        {
+          "file": "apps/myapp-e2e/playwright.config.ts",
+          "hash": "337058095181890038",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/myapp-e2e/project.json",
+          "hash": "7131478688754462563"
+        },
+        {
+          "file": "apps/myapp-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/myapp-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ],
+      "frontend-e2e": [
+        {
+          "file": "apps/frontend-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/frontend-e2e/cypress.config.ts",
+          "hash": "3631011454240625899",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/frontend-e2e/project.json",
+          "hash": "2273134968640056994"
+        },
+        {
+          "file": "apps/frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "10814401713449552516"
+        },
+        {
+          "file": "apps/frontend-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/frontend-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/frontend-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/frontend-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/frontend-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
+      "deverb": [
+        {
+          "file": "react-monorepo/apps/deverb/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/index.html",
+          "hash": "2304134348852691529"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/project.json",
+          "hash": "6219000582941730956"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/app/app.spec.tsx",
+          "hash": "5385956694953301324",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/app/app.tsx",
+          "hash": "3171916898683481789"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/app/nx-welcome.tsx",
+          "hash": "8738192610072799603"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/main.tsx",
+          "hash": "11332670511827407186",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "react-monorepo/apps/deverb/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/tsconfig.app.json",
+          "hash": "3374933587361460334"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/tsconfig.spec.json",
+          "hash": "2374680567064402239"
+        },
+        {
+          "file": "react-monorepo/apps/deverb/vite.config.ts",
+          "hash": "12622058457772223655",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "myapp-vite": [
+        {
+          "file": "apps/myapp-vite/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/myapp-vite/index.html",
+          "hash": "15618466864579598874"
+        },
+        {
+          "file": "apps/myapp-vite/project.json",
+          "hash": "2842114204280688911"
+        },
+        {
+          "file": "apps/myapp-vite/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/myapp-vite/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/myapp-vite/src/app/app.spec.tsx",
+          "hash": "11291257220171717967",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp-vite/src/app/app.tsx",
+          "hash": "11325970312632854476",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp-vite/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/myapp-vite/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/myapp-vite/src/main.tsx",
+          "hash": "561879556058763919",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp-vite/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/myapp-vite/tsconfig.app.json",
+          "hash": "3374933587361460334"
+        },
+        {
+          "file": "apps/myapp-vite/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/myapp-vite/tsconfig.spec.json",
+          "hash": "2374680567064402239"
+        },
+        {
+          "file": "apps/myapp-vite/vite.config.ts",
+          "hash": "16584182255333914826",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "backend": [
+        {
+          "file": "apps/backend/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/backend/.gitignore",
+          "hash": "12975187279384539528"
+        },
+        {
+          "file": "apps/backend/jest.config.ts",
+          "hash": "10270099158426654431"
+        },
+        {
+          "file": "apps/backend/prisma/migrations/20230123171537_init/migration.sql",
+          "hash": "13612304824166220463"
+        },
+        {
+          "file": "apps/backend/prisma/migrations/migration_lock.toml",
+          "hash": "11493296588214560035"
+        },
+        {
+          "file": "apps/backend/prisma/schema.prisma",
+          "hash": "17350486998532859274"
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "18129187523727137038"
+        },
+        {
+          "file": "apps/backend/src/app/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/configs/auth.config.ts",
+          "hash": "14906550456046751311",
+          "deps": [
+            "npm:env-var"
+          ]
+        },
+        {
+          "file": "apps/backend/src/configs/server.config.ts",
+          "hash": "7631949899013981525",
+          "deps": [
+            "npm:env-var",
+            "npm:dotenv"
+          ]
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "12304661024295907535"
+        },
+        {
+          "file": "apps/backend/src/modules/auth/auth.dtos.ts",
+          "hash": "15554764775277162150",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/backend/src/modules/auth/auth.router.ts",
+          "hash": "3396588080985094226"
+        },
+        {
+          "file": "apps/backend/src/modules/auth/auth.service.ts",
+          "hash": "4461329889062624820",
+          "deps": [
+            "npm:@prisma/client",
+            "npm:@trpc/server",
+            "npm:jsonwebtoken",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/backend/src/server/context.ts",
+          "hash": "16904737652925435437",
+          "deps": [
+            "npm:@trpc/server",
+            "npm:jsonwebtoken",
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/backend/src/server/router.ts",
+          "hash": "13943868725628670356"
+        },
+        {
+          "file": "apps/backend/src/server/server.ts",
+          "hash": "80495543636550629",
+          "deps": [
+            "npm:@trpc/server",
+            "npm:fastify",
+            "npm:@fastify/cors",
+            "npm:pino-pretty",
+            "npm:pino"
+          ]
+        },
+        {
+          "file": "apps/backend/src/server/trpc.ts",
+          "hash": "12513233172351380321",
+          "deps": [
+            "npm:@trpc/server",
+            "npm:superjson"
+          ]
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "17535903053479191595"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "9214820933160915425"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "deverb-e2e": [
+        {
+          "file": "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+          "hash": "632147010597293032"
+        },
+        {
+          "file": "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+          "hash": "7422338745039297239",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "react-monorepo/apps/deverb-e2e/project.json",
+          "hash": "10162613974457707052"
+        },
+        {
+          "file": "react-monorepo/apps/deverb-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "react-monorepo/apps/deverb-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ]
+    }
+  }
+}

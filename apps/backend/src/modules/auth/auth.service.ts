@@ -61,8 +61,8 @@ export const signIn = async (
       id: user.id,
       roles: user.role,
     },
-    authConfig.secretKey,
-    { expiresIn: authConfig.jwtExpiresIn }
+    authConfig.secretKey as any,
+    { expiresIn: authConfig.jwtExpiresIn as any }
   );
 
   return {

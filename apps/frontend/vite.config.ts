@@ -11,7 +11,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    tsconfigPaths({ projects: ['./tsconfig.app.json']}),
+    tsconfigPaths({ projects: ['apps/frontend/tsconfig.app.json']}),
     nxViteTsPaths(),
   ],
 

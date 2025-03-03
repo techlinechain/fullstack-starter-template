@@ -1,0 +1,1040 @@
+{
+  "95812284030977774apps/myapp-vite/vite.config.ts": {
+    "targets": {
+      "vite:build": {
+        "command": "vite build",
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "cache": true,
+        "dependsOn": [
+          "^vite:build"
+        ],
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "vite"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/apps/myapp-vite"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite build",
+          "help": {
+            "command": "npx vite build --help",
+            "example": {
+              "options": {
+                "sourcemap": true,
+                "manifest": "manifest.json"
+              }
+            }
+          }
+        }
+      },
+      "vite:serve": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          },
+          "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+        }
+      },
+      "dev": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "preview": {
+        "command": "vite preview",
+        "dependsOn": [
+          "vite:build"
+        ],
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Locally preview Vite production build",
+          "help": {
+            "command": "npx vite preview --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "serve-static": {
+        "executor": "@nx/web:file-server",
+        "options": {
+          "buildTarget": "vite:build",
+          "spa": true
+        }
+      },
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "apps/myapp-vite"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/apps/myapp-vite"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects myapp-vite --includeDependentProjects -- npx nx build-deps myapp-vite"
+      }
+    },
+    "metadata": {}
+  },
+  "3749492084188977422apps/myapp/vite.config.ts": {
+    "targets": {
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/apps/myapp"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects myapp --includeDependentProjects -- npx nx build-deps myapp"
+      }
+    },
+    "metadata": {}
+  },
+  "2643356191677144965apps/frontend/vite.config.ts": {
+    "targets": {
+      "vite:build": {
+        "command": "vite build",
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "cache": true,
+        "dependsOn": [
+          "^vite:build"
+        ],
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "vite"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite build",
+          "help": {
+            "command": "npx vite build --help",
+            "example": {
+              "options": {
+                "sourcemap": true,
+                "manifest": "manifest.json"
+              }
+            }
+          }
+        }
+      },
+      "vite:serve": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          },
+          "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+        }
+      },
+      "dev": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "preview": {
+        "command": "vite preview",
+        "dependsOn": [
+          "vite:build"
+        ],
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Locally preview Vite production build",
+          "help": {
+            "command": "npx vite preview --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "serve-static": {
+        "executor": "@nx/web:file-server",
+        "options": {
+          "buildTarget": "vite:build",
+          "spa": true
+        }
+      },
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "apps/frontend"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/{projectRoot}"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects frontend --includeDependentProjects -- npx nx build-deps frontend"
+      }
+    },
+    "metadata": {}
+  },
+  "5468146752461613107apps/myapp/vite.config.ts": {
+    "targets": {
+      "vite:build": {
+        "command": "vite build",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "cache": true,
+        "dependsOn": [
+          "^vite:build"
+        ],
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "vite"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/apps/myapp"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite build",
+          "help": {
+            "command": "npx vite build --help",
+            "example": {
+              "options": {
+                "sourcemap": true,
+                "manifest": "manifest.json"
+              }
+            }
+          }
+        }
+      },
+      "vite:serve": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          },
+          "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+        }
+      },
+      "dev": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "preview": {
+        "command": "vite preview",
+        "dependsOn": [
+          "vite:build"
+        ],
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Locally preview Vite production build",
+          "help": {
+            "command": "npx vite preview --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "serve-static": {
+        "executor": "@nx/web:file-server",
+        "options": {
+          "buildTarget": "vite:build",
+          "spa": true
+        }
+      },
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/apps/myapp"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects myapp --includeDependentProjects -- npx nx build-deps myapp"
+      }
+    },
+    "metadata": {}
+  },
+  "4948359987785454331apps/myapp/vite.config.ts": {
+    "targets": {
+      "vite:build": {
+        "command": "vite build",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "cache": true,
+        "dependsOn": [
+          "^vite:build"
+        ],
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "vite"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/apps/myapp"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite build",
+          "help": {
+            "command": "npx vite build --help",
+            "example": {
+              "options": {
+                "sourcemap": true,
+                "manifest": "manifest.json"
+              }
+            }
+          }
+        }
+      },
+      "vite:serve": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          },
+          "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+        }
+      },
+      "dev": {
+        "command": "vite",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "preview": {
+        "command": "vite preview",
+        "dependsOn": [
+          "vite:build"
+        ],
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Locally preview Vite production build",
+          "help": {
+            "command": "npx vite preview --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "serve-static": {
+        "executor": "@nx/web:file-server",
+        "options": {
+          "buildTarget": "vite:build",
+          "spa": true
+        }
+      },
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "apps/myapp"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/apps/myapp"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects myapp --includeDependentProjects -- npx nx build-deps myapp"
+      }
+    },
+    "metadata": {}
+  },
+  "11598312915757825736react-monorepo/apps/deverb/vite.config.ts": {
+    "targets": {
+      "vite:build": {
+        "command": "vite build",
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "cache": true,
+        "dependsOn": [
+          "^vite:build"
+        ],
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "vite"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/react-monorepo/dist/apps/deverb"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite build",
+          "help": {
+            "command": "npx vite build --help",
+            "example": {
+              "options": {
+                "sourcemap": true,
+                "manifest": "manifest.json"
+              }
+            }
+          }
+        }
+      },
+      "vite:serve": {
+        "command": "vite",
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          },
+          "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+        }
+      },
+      "dev": {
+        "command": "vite",
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Starts Vite dev server",
+          "help": {
+            "command": "npx vite --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "preview": {
+        "command": "vite preview",
+        "dependsOn": [
+          "vite:build"
+        ],
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Locally preview Vite production build",
+          "help": {
+            "command": "npx vite preview --help",
+            "example": {
+              "options": {
+                "port": 3000
+              }
+            }
+          }
+        }
+      },
+      "serve-static": {
+        "executor": "@nx/web:file-server",
+        "options": {
+          "buildTarget": "vite:build",
+          "spa": true
+        }
+      },
+      "typecheck": {
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "command": "tsc --noEmit -p tsconfig.app.json",
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "metadata": {
+          "description": "Runs type-checking for the project.",
+          "technologies": [
+            "typescript"
+          ],
+          "help": {
+            "command": "npx tsc -p tsconfig.app.json --help",
+            "example": {
+              "options": {
+                "noEmit": true
+              }
+            }
+          }
+        }
+      },
+      "vite:test": {
+        "command": "vitest",
+        "options": {
+          "cwd": "react-monorepo/apps/deverb"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "vitest"
+            ]
+          },
+          {
+            "env": "CI"
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/react-monorepo/coverage/apps/deverb"
+        ],
+        "metadata": {
+          "technologies": [
+            "vite"
+          ],
+          "description": "Run Vite tests",
+          "help": {
+            "command": "npx vitest --help",
+            "example": {
+              "options": {
+                "bail": 1,
+                "coverage": true
+              }
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects deverb --includeDependentProjects -- npx nx build-deps deverb"
+      }
+    },
+    "metadata": {}
+  }
+}

@@ -1,0 +1,3672 @@
+{
+  "apps/myapp": {
+    "root": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.cache": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.inputs": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.outputs": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.cwd": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies.0": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.description": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.example": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/myapp/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/myapp/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.mode": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.mode": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.hmr": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/myapp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/myapp-vite": {
+    "root": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.cache": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.inputs": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.outputs": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.cwd": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies.0": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.description": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.example": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/myapp-vite/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/myapp-vite/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/myapp-vite/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/frontend": {
+    "root": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.cache": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.inputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.outputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/frontend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.mode": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.mode": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.hmr": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.reportsDirectory": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.configurations": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.port": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.configDir": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.configurations.ci": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.configurations.ci.quiet": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.outputs": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.configurations": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.outputDir": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.configDir": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.configurations.ci": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.configurations.ci.quiet": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "react-monorepo/apps/deverb": {
+    "root": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.cache": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.inputs": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.outputs": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.cwd": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.description": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.example": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "react-monorepo/apps/deverb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.eslint:lint": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "react-monorepo/apps/deverb/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "react-monorepo/apps/deverb/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/backend": {
+    "root": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/backend/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.format": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.generatePackageJson": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.thirdParty": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/frontend-e2e": {
+    "root": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/frontend-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.frontend": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.configurations": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.cypressConfig": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.devServerTarget": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.testingType": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.configurations.production": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.configurations.production.devServerTarget": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/myapp-e2e": {
+    "root": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/myapp-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "metadata.targetGroups": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.metadata": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.outputs": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.env": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/myapp-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.myapp": [
+      "apps/myapp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/myapp-vite-e2e": {
+    "root": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/myapp-vite-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "metadata.targetGroups": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.metadata": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.outputs": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.env": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/myapp-vite-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.myapp-vite": [
+      "apps/myapp-vite-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "react-monorepo/apps/deverb-e2e": {
+    "root": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "react-monorepo/apps/deverb-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "metadata.targetGroups": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.metadata": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.outputs": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.env": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "react-monorepo/apps/deverb-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.deverb": [
+      "react-monorepo/apps/deverb-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}
