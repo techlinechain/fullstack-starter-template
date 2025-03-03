@@ -6,10 +6,7 @@
       "inputs": ["production", "^production"],
       "cache": true
     },
-    "e2e": {
-      "inputs": ["default", "^production"],
-      "cache": true
-    },
+    "e2e": { "inputs": ["default", "^production"], "cache": true },
     "lint": {
       "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
       "cache": true
@@ -28,9 +25,7 @@
       ],
       "cache": true
     },
-    "e2e-ci--**/*": {
-      "dependsOn": ["^build", "^vite:build"]
-    }
+    "e2e-ci--**/*": { "dependsOn": ["^build", "^vite:build"] }
   },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
@@ -55,13 +50,8 @@
         "linter": "eslint",
         "bundler": "webpack"
       },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint" }
     }
   },
   "plugins": [
@@ -91,15 +81,9 @@
     },
     {
       "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "eslint:lint"
-      }
+      "options": { "targetName": "eslint:lint" }
     },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    }
-  ]
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } }
+  ],
+  "nxCloudId": "67c5fafb9daf755c68a5370e"
 }
